@@ -1,8 +1,22 @@
+/* Aciklama Satiri
+
+Istenildigi kadar uzatilabilir.
+Aciklama satirlari kapatilmaz ise , tüm satirlar aciklamaya dahil edilebilir.
+*/
+body{background-color: black;
+color:white;
+font-family: 'Odibee Sans', cursive;
+}
+
 h2{
     color:rgb(110, 161, 34);
      font-size:15px;
       text-decoration: underline;
+      text-transform: uppercase;
 }
 p{
     color:darkolivegreen;
+}
+ul{
+    color:coral ;
 }
