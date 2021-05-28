@@ -20,3 +20,13 @@ p{
 ul{
     color:coral ;
 }
+.fs-20{
+    color:red;
+}
+.text-blue{
+    color:blue;
+
+}
+#first-article{
+    font: size 40px;
+}
