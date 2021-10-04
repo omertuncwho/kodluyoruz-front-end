@@ -8,9 +8,10 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Kodluyoruz</title>
   </head>
   <body>
+    <!--Navbar Start-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Kodluyoruz</a>
@@ -27,8 +28,144 @@
         </div>
       </div>
     </nav>
-
+<!--Navbar End-->
+<!--Carousel Start-->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://picsum.photos/1600/600" class="d-block w-100 w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://picsum.photos/1600/602" class="d-block w-100 w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://picsum.photos/1600/601" class="d-block w-100 w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--Carousel End-->
+<!--About Us Start-->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 mt-5">
+        <img src="https://picsum.photos/400/300"  class="img-thumbnail"alt="">
+      </div>
+      <div class="col-sm-6 mt-5">
+        <h2>Hakkımızda</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, ad mollitia! Impedit sunt neque, doloremque doloribus excepturi reprehenderit sequi asperiores sapiente quo quam reiciendis cumque natus soluta beatae maxime officiis?</p>
+      </div>
+    </div>
+  </div>
+<!--About Us End-->
+<!--Products Start-->
+<div class="container">
+<div class="row">
+  <div class="col-sm-4">
+  <div class="card mt-4" style="width: 18rem;">
+    <img src="https://picsum.photos/200/200" class="card-img-top w-100 card-img-top mt-2" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">HTML</h5>
+      <p class="card-text">Random Text</p>
+      <a href="#" class="btn btn-primary">Dersi İzle</a>
+    </div>
+  </div>
+</div>
+<div class="col-sm-4">
+  <div class="card mt-4" style="width: 18rem;">
+    <img src="https://picsum.photos/200/200" class="card-img-top w-100 card-img-top mt-2" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">HTML</h5>
+      <p class="card-text">Random Text</p>
+      <a href="#" class="btn btn-primary">Dersi İzle</a>
+    </div>
+  </div>
+</div>
+<div class="col-sm-4">
+  <div class="card mt-4" style="width: 18rem;">
+    <img src="https://picsum.photos/200/200" class="card-img-top w-100 card-img-top mt-2" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">HTML</h5>
+      <p class="card-text">Random Text</p>
+      <a href="#" class="btn btn-primary">Dersi İzle</a>
+    </div>
+  </div>
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2 mt-4"><img src="https://picsum.photos/200/201"" alt="" class="img-thumbnail w-100"></div>
+    <div class="col-sm-2 mt-4"><img src="https://picsum.photos/199/200"" alt="" class="img-thumbnail w-100"></div>
+    <div class="col-sm-2 mt-4"><img src="https://picsum.photos/200/202"" alt="" class="img-thumbnail w-100"></div>
+    <div class="col-sm-2 mt-4"><img src="https://picsum.photos/201/200"" alt="" class="img-thumbnail w-100"></div>
+    <div class="col-sm-2 mt-4"><img src="https://picsum.photos/201/201"" alt="" class="img-thumbnail w-100"></div>
+    <div class="col-sm-2 mt-4"><img src="https://picsum.photos/202/200"" alt="" class="img-thumbnail w-100"></div>
+  </div>
+</div>
+<footer class="container py-5">
+  <div class="row">
+    <div class="col-12 col-md">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+      <small class="d-block mb-3 text-muted">© 2017–2021</small>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Features</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Cool stuff</a></li>
+        <li><a class="link-secondary" href="#">Random feature</a></li>
+        <li><a class="link-secondary" href="#">Team feature</a></li>
+        <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+        <li><a class="link-secondary" href="#">Another one</a></li>
+        <li><a class="link-secondary" href="#">Last time</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Resource name</a></li>
+        <li><a class="link-secondary" href="#">Resource</a></li>
+        <li><a class="link-secondary" href="#">Another resource</a></li>
+        <li><a class="link-secondary" href="#">Final resource</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Business</a></li>
+        <li><a class="link-secondary" href="#">Education</a></li>
+        <li><a class="link-secondary" href="#">Government</a></li>
+        <li><a class="link-secondary" href="#">Gaming</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>About</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Team</a></li>
+        <li><a class="link-secondary" href="#">Locations</a></li>
+        <li><a class="link-secondary" href="#">Privacy</a></li>
+        <li><a class="link-secondary" href="#">Terms</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</div>
+</div>
+<!--Products End -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+ 
 
   </body>
 </html>
